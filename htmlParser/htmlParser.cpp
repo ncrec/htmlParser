@@ -35,7 +35,6 @@ int main(int argc, char* argv[])
 	string readBuffer;
 	curl = curl_easy_init();
 	string url = argv[1];
-	cout << url << endl;
 	if (curl) {
 		curl_easy_setopt(curl, CURLOPT_ACCEPT_ENCODING, "");
 		curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) FxiOS/7.5b3349 Mobile/14F89 Safari/603.2.4");
